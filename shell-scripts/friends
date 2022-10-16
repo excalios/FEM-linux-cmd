@@ -1,0 +1,10 @@
+#!/bin/bash
+
+friends=(kyle marc jem "ravi deevan" sarah)
+
+for friend in ${friends[*]}
+do
+  echo friend: $friend
+done
+
+echo "I have ${#friends[*]} friends"
